@@ -1,0 +1,101 @@
+/* Better Visibility for Market Campers */
+/* Update for Patch - V0.3 */
+/* Market */
+.hover-bg[data-v-a7408f32] {
+    opacity: 0
+}
+.subj-img[data-v-a7408f32] {
+    max-width: 13rem;
+    max-height: 6.5rem;
+    margin-top: 0.1rem;
+    filter: drop-shadow(rgba(0,0,0,0.98) 0px 0.15rem 0.15rem);
+}
+.take-btn[data-v-a7408f32] {
+    margin-right: 10.3rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    background-color: rgba(128,128,128,0.33) !important;
+    --hover-color: var(--primary-1) !important;
+    --top: #ffffff00 !important;
+    --bottom: #ffffff00 !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Inventory */
+/* Avatar */
+.player-lobby[data-v-15afb304] {
+    width: 60rem;
+    height: 39rem;
+    margin-left: -12.5rem;
+    margin-top: -9rem;
+}
+.hover-bg[data-v-15afb304] {
+    opacity: 0
+}
+.subject[data-v-15afb304] {
+    width: 12.55rem;
+}
+.subj-img[data-v-15afb304] {
+    max-width: 11.5rem;
+    max-height: 6.7rem;
+    margin-top: 0.1rem;
+    filter: drop-shadow(rgba(0,0,0,0.98) 0px 0.15rem 0.15rem);
+}
+
+/* Bkg Wallpaper */
+#app > div.interface.text-2 > div.background {
+    background-image: url(https://wallpapercave.com/wp/CQooiuV.jpg)
+}
+
+.pattern-bg {
+    display: none;
+}
+
+/* Feedback */
+#app > div.interface.text-2 > div.background > div.bg-radial {
+    position: absolute !important;
+    height: 45px !important;
+    width: 105px !important;
+    top: 64rem !important;
+    left: 0rem !important;
+    background: #ffffff00 !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial::after {
+    font-size: 1rem;
+    content: "Suggestions? ";
+    padding: 0.6rem !important;
+    color: #ffffff;
+    position: fixed;
+    top: 95%;
+    left: 0rem;
+    z-index: 10;
+    pointer-events: auto;
+    backdrop-filter: blur(3px) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-top: none !important;
+    background-color: var(--background) !important;
+    background: var(--corners);
+    background-repeat: no-repeat !important;
+    background-size: 10px 10px !important;
+    border-radius: 0px !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial:hover::after {
+    font-size: 1rem;
+    text-align: left;
+    white-space: pre;
+    content: "Discord: Biscuit#5113";
+    backdrop-filter: blur(3px) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-top: none !important;
+    background-color: var(--background) !important;
+    background: var(--corners);
+    background-repeat: no-repeat !important;
+    background-size: 10px 10px !important;
+    border-radius: 0px !important;
+    transition: all 0.3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    border: none !important;
+    padding: 0.9rem;
+    width: auto;
+... (424 lignes restantes)
